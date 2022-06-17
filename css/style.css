@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
 }
+
 nav{
   background-color: black;
   color: white;
@@ -25,6 +26,7 @@ nav ul{
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  min-height: 78.3vh;
 }
 .container{
   display: grid;
@@ -96,6 +98,18 @@ nav ul{
   width: 0vw;
   position:absolute;
   transition: width 1s ease-in-out;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+  padding: 10px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(189, 143, 233);
 }
 
 @media screen and (max-width:900px){
